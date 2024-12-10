@@ -149,7 +149,8 @@ int main()  //definindo variaveis principais
 	printf("\t Menu de Opções ;\n\n");
 	printf("\t 1 - Registro de Usuários\n");
 	printf("\t 2 - Consulta de Usuários\n");
-	printf("\t 3 - Exclusão de Usuários\n\n");
+	printf("\t 3 - Exclusão de Usuários\n");
+	printf("\t 4 - Encerrar programa\n\n");
 	printf("\t Qual a opção deseja? ");//final do menu
 	
 			{  // armazenando seleção
@@ -169,6 +170,11 @@ int main()  //definindo variaveis principais
 					
 					case 3:
 					 exclusao();
+					break;
+					
+					case 4:
+					printf("\t Obrigado por utilizar.\n\n");
+					return 0;
 					break;
 					
 					default:
